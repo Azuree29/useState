@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Iso&display=swap');
+
+body {
+  background-color: turquoise;
+}
+
+
+
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+p {
+  font-size: 180px;
+  color: red;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button {
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: orange;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.4)
+}
+
+h1 {
+font-family: 'Rubik Iso', cursive;
+font-size: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  position: relative;
+  bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+.reset button {
+  background-color: blue;
+  color: orangered;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 300px;
+  }
+
+  button {
+    padding: 30px 40px;
+  }
+
+  h1 {
+    font-size: 200px;
+  }
+}
